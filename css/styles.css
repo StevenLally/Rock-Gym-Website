@@ -1,6 +1,5 @@
 body {
-  margin-top: 56px;
-}
+  margin-top: 56px; }
 
 .bg {
   background-image: url(../img/indoor-climbing-1.jpg);
@@ -8,10 +7,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 140px;
-  padding-bottom: 140px;
-
-  button {
+  padding-bottom: 140px; }
+  .bg button {
     width: 100px;
-    border-radius: 19px;
-  }
-}
+    border-radius: 19px; }
