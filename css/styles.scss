@@ -2,6 +2,10 @@ body {
   margin-top: 56px;
 }
 
+a {
+  color: #3B4754;
+}
+
 .bg {
   background-image: url(../img/indoor-climbing-1.jpg);
   background-position: center;
@@ -14,4 +18,12 @@ body {
     width: 100px;
     border-radius: 19px;
   }
+}
+
+.contact-icon {
+  color: #EDF0F4;
+}
+
+.fa-stack {
+  font-size: 1em;
 }
