@@ -134,36 +134,67 @@
 
   <div class="container-fluid">
     <div class="row mb-0">
-      <div class="col-md-6">
-        <h2>Contact Us</h2>
-        <p class="font-weight-bold">Greenville, SC</p>
-        <span class="fa-stack fa-2x">
-          <i class="fa fa-circle fa-stack-2x contact-icon"></i>
-          <i class="fa fa-map-marker fa-sm fa-stack-1x"></i>
-        </span>
-        <a id="address" href="#"> 5 Market Point Dr, 29607</a>
-        <br>
-        <span class="fa-stack fa-2x">
-          <i class="fa fa-circle fa-stack-2x contact-icon"></i>
-          <i class="fa fa-envelope-o fa-sm fa-stack-1x"></i>
-        </span>
-        <a id="email" href="mailto:thequarry@gym.com"> thequarry@gym.com</a>
-        <br>
-        <span class="fa-stack fa-2x">
-          <i class="fa fa-circle fa-stack-2x contact-icon"></i>
-          <i class="fa fa-phone fa-sm fa-stack-1x"></i>
-        </span>
-        <a id="phone" href="tel:10000000000"> (000) 000-0000</a>
-        <br>
-        <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-        <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-        <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+      <div class="col-md-6 text-center">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center my-5">Locations</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p class="font-weight-bold mt-3 mb-2">Greenville, SC</p>
+            <span class="fa-stack fa-2x my-1">
+              <i id="circleIconGvl" class="fa fa-circle fa-stack-2x contact-icon"></i>
+              <i id="mapIconGvl" class="fa fa-map-marker fa-sm fa-stack-1x fa-inverse"></i>
+            </span>
+            <a id="addressGvl" href="" onclick="return false;"> 5 Market Point Dr, 29607</a>
+            <br>
+            <span class="fa-stack fa-2x mb-1">
+              <i class="fa fa-circle fa-stack-2x contact-icon"></i>
+              <i class="fa fa-envelope-o fa-sm fa-stack-1x"></i>
+            </span>
+            <a id="emailGvl" href="mailto:thequarrygvl@gym.com"> TheQuarryGvl@gym.com</a>
+            <br>
+            <span class="fa-stack fa-2x mb-3">
+              <i class="fa fa-circle fa-stack-2x contact-icon"></i>
+              <i class="fa fa-phone fa-sm fa-stack-1x"></i>
+            </span>
+            <a id="phoneGvl" href="tel:10000000000"> (000) 000-0000</a>
+          </div>
+
+          <div class="col-md-6">
+            <p class="font-weight-bold mt-3 mb-2">Columbia, SC</p>
+            <span class="fa-stack fa-2x my-1">
+              <i id="circleIconCola" class="fa fa-circle fa-stack-2x contact-icon"></i>
+              <i id="mapIconCola" class="fa fa-map-marker fa-sm fa-stack-1x"></i>
+            </span>
+            <a id="addressCola" href="" onclick="return false;"> 925 Huger St, 29201</a>
+            <br>
+            <span class="fa-stack fa-2x mb-1">
+              <i class="fa fa-circle fa-stack-2x contact-icon"></i>
+              <i class="fa fa-envelope-o fa-sm fa-stack-1x"></i>
+            </span>
+            <a id="emailCola" href="mailto:thequarrycola@gym.com"> TheQuarryCola@gym.com</a>
+            <br>
+            <span class="fa-stack fa-2x mb-3">
+              <i class="fa fa-circle fa-stack-2x contact-icon"></i>
+              <i class="fa fa-phone fa-sm fa-stack-1x"></i>
+            </span>
+            <a id="phoneCola" href="tel:10000000000"> (000) 000-0000</a>
+          </div>
+        </div>
       </div>
 
       <div class="col-md-6">
-        <iframe
+        <iframe id="mapGvl"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.2692334547196!2d-82.3015095763976!3d34.824322681502835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885828ccf4191373%3A0xa69ae49c99757cb0!2s5%20Market%20Point%20Dr%2C%20Greenville%2C%20SC%2029607!5e0!3m2!1sen!2sus!4v1588719235892!5m2!1sen!2sus"
           width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+
+        <iframe id="mapCola" class="d-none"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.9290320150462!2d-81.04651014858091!3d33.99435658052667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb306f24bb31%3A0x9681ff88fca83688!2s925%20Huger%20St%2C%20Columbia%2C%20SC%2029201!5e0!3m2!1sen!2sus!4v1588892055250!5m2!1sen!2sus"
+          width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
           tabindex="0"></iframe>
       </div>
     </div>
@@ -173,7 +204,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col text-center">
+      <div class="col text-center my-5">
         <h2>Join E-mail List</h2>
       </div>
     </div>
@@ -191,7 +222,7 @@
         </div>
       </div>
       <div class="form-row">
-        <div class="col-12 text-center">
+        <div class="col-12 text-center mb-5">
           <button type="submit" class="btn btn-primary btn-sm ml-1">Submit</button>
         </div>
       </div>
@@ -201,7 +232,7 @@
   <hr>
 
   <div class="container">
-    <div class="row">
+    <div class="row my-3">
       <div class="col text-center">
         <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
         <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
