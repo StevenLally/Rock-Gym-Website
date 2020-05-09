@@ -1,9 +1,20 @@
+$banner-text: rgb(33, 35, 37);
+$color-dark: #3B4754;
+$color-light: #EDF0F4;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+
 body {
   margin-top: 56px;
 }
 
 a {
-  color: #3B4754;
+  color: $color-dark;
+}
+
+h1 {
+  font-size: 54px;
+  font-weight: 700;
+  color: $banner-text
 }
 
 .bg {
@@ -14,14 +25,16 @@ a {
   padding-top: 140px;
   padding-bottom: 140px;
 
-  button {
+  a, button {
     width: 100px;
     border-radius: 19px;
+    background-color: $color-dark;
+    border-color: $color-dark;
   }
 }
 
 .contact-icon {
-  color: #EDF0F4;
+  color: $color-light;
 }
 
 .fa {
@@ -38,5 +51,5 @@ a {
 }
 
 #circleIconGvl {
-  color: #3B4754;
+  color: $color-dark;
 }

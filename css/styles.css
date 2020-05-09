@@ -4,6 +4,11 @@ body {
 a {
   color: #3B4754; }
 
+h1 {
+  font-size: 54px;
+  font-weight: 700;
+  color: #212325; }
+
 .bg {
   background-image: url(../img/indoor-climbing-1.jpg);
   background-position: center;
@@ -11,9 +16,11 @@ a {
   background-size: cover;
   padding-top: 140px;
   padding-bottom: 140px; }
-  .bg button {
+  .bg a, .bg button {
     width: 100px;
-    border-radius: 19px; }
+    border-radius: 19px;
+    background-color: #3B4754;
+    border-color: #3B4754; }
 
 .contact-icon {
   color: #EDF0F4; }

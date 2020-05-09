@@ -1,4 +1,6 @@
 $(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+
   //have map display Greenville, SC location when address is clicked
   $("#addressGvl").click(function () {
     if ($("#mapGvl").hasClass("d-none")) {

@@ -31,8 +31,7 @@
         <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
       </ul>
       <span class="navbar-text ml-auto">
-        <a data-toggle="modal" data-target="#loginModal">
-          <i class="fa fa-sign-in"></i> Login </a>
+        <button class="btn" data-toggle="modal" data-target="#loginModal">Login </button>
       </span>
     </div>
   </nav>
@@ -85,11 +84,12 @@
       </div>
     </div>
     <div class="row py-2">
-      <div class="col-sm-2 offset-sm-4 text-center my-1">
-        <button class="btn">Hours</button>
+      <div class="col-md-2 offset-md-4 text-center my-1 mt-md-1">
+        <button class="btn btn-primary" data-toggle="tooltip" data-placement="left" data-html="true"
+          title="Hours: <br>M-F 10:00 AM - 11:00 PM<br>Sun 12:00 PM - 10:00 PM">Hours</button>
       </div>
-      <div class="col-sm-2 text-center my-1">
-        <button class="btn">Location</button>
+      <div class="col-md-2 text-center mt-3 mt-md-1">
+        <a id="locationButton" class="btn btn-primary" href="#locations">Location</a>
       </div>
     </div>
   </div>
@@ -132,29 +132,29 @@
 
   <hr class="mb-0">
 
-  <div class="container-fluid">
+  <div id="locations" class="container-fluid">
     <div class="row mb-0">
       <div class="col-md-6 text-center">
         <div class="row">
           <div class="col">
-            <h2 class="text-center my-5">Locations</h2>
+            <h2 class="text-center mt-4 mb-4 my-lg-5">Locations</h2>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-md-6">
-            <p class="font-weight-bold mt-3 mb-2">Greenville, SC</p>
+          <div class="col-lg-6">
+            <p class="font-weight-bold mt-lg-3 mb-2">Greenville, SC</p>
             <span class="fa-stack fa-2x my-1">
               <i id="circleIconGvl" class="fa fa-circle fa-stack-2x contact-icon"></i>
               <i id="mapIconGvl" class="fa fa-map-marker fa-sm fa-stack-1x fa-inverse"></i>
             </span>
-            <a id="addressGvl" href="" onclick="return false;"> 5 Market Point Dr, 29607</a>
+            <a id="addressGvl" href="" onclick="return false;"> 5 Market Point Dr</a>
             <br>
             <span class="fa-stack fa-2x mb-1">
               <i class="fa fa-circle fa-stack-2x contact-icon"></i>
               <i class="fa fa-envelope-o fa-sm fa-stack-1x"></i>
             </span>
-            <a id="emailGvl" href="mailto:thequarrygvl@gym.com"> TheQuarryGvl@gym.com</a>
+            <a id="emailGvl" href="mailto:quarrygvl@gym.com"> QuarryGvl@gym.com</a>
             <br>
             <span class="fa-stack fa-2x mb-3">
               <i class="fa fa-circle fa-stack-2x contact-icon"></i>
@@ -163,19 +163,19 @@
             <a id="phoneGvl" href="tel:10000000000"> (000) 000-0000</a>
           </div>
 
-          <div class="col-md-6">
-            <p class="font-weight-bold mt-3 mb-2">Columbia, SC</p>
+          <div class="col-lg-6 mb-3">
+            <p class="font-weight-bold mt-4 mt-lg-3 mb-2">Columbia, SC</p>
             <span class="fa-stack fa-2x my-1">
               <i id="circleIconCola" class="fa fa-circle fa-stack-2x contact-icon"></i>
               <i id="mapIconCola" class="fa fa-map-marker fa-sm fa-stack-1x"></i>
             </span>
-            <a id="addressCola" href="" onclick="return false;"> 925 Huger St, 29201</a>
+            <a id="addressCola" href="" onclick="return false;"> 925 Huger St</a>
             <br>
             <span class="fa-stack fa-2x mb-1">
               <i class="fa fa-circle fa-stack-2x contact-icon"></i>
               <i class="fa fa-envelope-o fa-sm fa-stack-1x"></i>
             </span>
-            <a id="emailCola" href="mailto:thequarrycola@gym.com"> TheQuarryCola@gym.com</a>
+            <a id="emailCola" href="mailto:quarrycola@gym.com"> QuarryCola@gym.com</a>
             <br>
             <span class="fa-stack fa-2x mb-3">
               <i class="fa fa-circle fa-stack-2x contact-icon"></i>
