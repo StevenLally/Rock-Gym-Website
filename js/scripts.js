@@ -1,5 +1,14 @@
 $(function () {
+
   $('[data-toggle="tooltip"]').tooltip();
+
+  $("#loginButton").click(function () {
+    if ($("#signup").hasClass("show")) {
+      $("#signup").removeClass("active show");
+      $("#login").addClass("active show");
+    }
+  });
+
 
   //have map display Greenville, SC location when address is clicked
   $("#addressGvl").click(function () {

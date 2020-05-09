@@ -32,6 +32,11 @@ h1 {
 .fa-stack {
   font-size: 1em; }
 
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
 #city-state {
   margin-left: 32px; }
 
